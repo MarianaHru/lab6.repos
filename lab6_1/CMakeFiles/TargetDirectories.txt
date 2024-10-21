@@ -1,0 +1,8 @@
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_1_unit_test.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_1_unit_test_rec.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_2_unit_test.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_2_unit_test_rec.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_3_unit_test.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/lab6_3_unit_test_rec.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/edit_cache.dir
+/Users/tarasgrudzinskij/Documents/semestr_1/lab06_repos/lab6_1/CMakeFiles/rebuild_cache.dir

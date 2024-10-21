@@ -25,10 +25,10 @@ target_link_libraries(lab6_2_unit_test PRIVATE GTest::gtest GTest::gtest_main pt
 
 
 
-# Додаємо тести для lab6_2_rec
-add_executable(lab6_2_unit_test_rec lab6_2_rec/lab6_2_unit_test_rec.cpp lab6_2_rec/lab6_2_rec.cpp)
-target_compile_definitions(lab6_2_unit_test_rec PRIVATE UNIT_TESTING)
-target_link_libraries(lab6_2_unit_test_rec PRIVATE GTest::gtest GTest::gtest_main pthread)
+# # Додаємо тести для lab6_2_rec
+# add_executable(lab6_2_unit_test_rec lab6_2_rec/lab6_2_unit_test_rec.cpp lab6_2_rec/lab6_2_rec.cpp)
+# target_compile_definitions(lab6_2_unit_test_rec PRIVATE UNIT_TESTING)
+# target_link_libraries(lab6_2_unit_test_rec PRIVATE GTest::gtest GTest::gtest_main pthread)
 
 
 # Додаємо тести для lab6_3
@@ -42,4 +42,18 @@ target_link_libraries(lab6_3_unit_test PRIVATE GTest::gtest GTest::gtest_main pt
 add_executable(lab6_3_unit_test_rec lab6_3_rec/lab6_3_unit_test_rec.cpp lab6_3_rec/lab6_3_rec.cpp)
 target_compile_definitions(lab6_3_unit_test_rec PRIVATE UNIT_TESTING)
 target_link_libraries(lab6_3_unit_test_rec PRIVATE GTest::gtest GTest::gtest_main pthread)
+
+
+
+# Додаємо тести для lab6_4
+add_executable(lab6_4_unit_test lab6_4/lab6_4_unit_test.cpp lab6_4/lab6_4.cpp)
+target_compile_definitions(lab6_4_unit_test PRIVATE UNIT_TESTING)
+target_link_libraries(lab6_4_unit_test PRIVATE GTest::gtest GTest::gtest_main pthread)
+
+
+
+# Додаємо тести для lab6_4_rec
+add_executable(lab6_4_unit_test_rec lab6_4_rec/lab6_4_unit_test_rec.cpp lab6_4_rec/lab6_4_rec.cpp)
+target_compile_definitions(lab6_4_unit_test_rec PRIVATE UNIT_TESTING)
+target_link_libraries(lab6_4_unit_test_rec PRIVATE GTest::gtest GTest::gtest_main pthread)
 

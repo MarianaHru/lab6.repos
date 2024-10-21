@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdlib> // Для використання rand()
-#include <ctime>   // Для ініціалізації генератора випадкових чисел
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int countOddElements(int a[], int n)
